@@ -23,7 +23,7 @@ int main(int argc, const char * argv[]) {
         BZ *bz520 = [factory createBZWithType:520];
         
         
-        // 下面这些是抽象工厂模式
+        // 下面这些是工厂方法模式
         BZ520Factory *bz520Factory = [[BZ520Factory alloc] init];
         bz520 = [bz520Factory createBZCar];
         

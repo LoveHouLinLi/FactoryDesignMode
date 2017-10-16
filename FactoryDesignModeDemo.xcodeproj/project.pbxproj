@@ -85,7 +85,7 @@
 				BF49B9F21F935F320077F20C /* BZ550.m */,
 				BF49B9F41F935FB60077F20C /* BZ520.h */,
 				BF49B9F51F935FB60077F20C /* BZ520.m */,
-				BF49BA071F94342F0077F20C /* AbstractFactoryMode */,
+				BF49BA071F94342F0077F20C /* FactoryMethodMode */,
 				BF49B9FD1F9363D20077F20C /* SimpleFactoryMode */,
 			);
 			path = FactoryDesignModeDemo;
@@ -100,7 +100,7 @@
 			name = SimpleFactoryMode;
 			sourceTree = "<group>";
 		};
-		BF49BA071F94342F0077F20C /* AbstractFactoryMode */ = {
+		BF49BA071F94342F0077F20C /* FactoryMethodMode */ = {
 			isa = PBXGroup;
 			children = (
 				BF49B9FE1F9432C20077F20C /* AbstractBZFactory.h */,
@@ -110,7 +110,7 @@
 				BF49BA041F9434030077F20C /* BZ520Factory.h */,
 				BF49BA051F9434030077F20C /* BZ520Factory.m */,
 			);
-			name = AbstractFactoryMode;
+			name = FactoryMethodMode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
