@@ -7,7 +7,15 @@
 //
 
 #import "BZ520Factory_Two.h"
+#import "BZ520.h"
 
 @implementation BZ520Factory_Two
+
+
+- (BZ *)manufacteBZ
+{
+    BZ520 *bz520 = [[BZ520 alloc] init];
+    return bz520;
+}
 
 @end

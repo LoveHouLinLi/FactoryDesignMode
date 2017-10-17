@@ -112,24 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				BF49B9EA1F9354500077F20C /* main.m */,
-				BFB33EEC1F95CC4000CF7721 /* Fruit.h */,
-				BFB33EED1F95CC9A00CF7721 /* Apple.h */,
-				BFB33EEE1F95CC9A00CF7721 /* Apple.m */,
-				BFB33EF31F95CF0F00CF7721 /* NorthApple.h */,
-				BFB33EF41F95CF0F00CF7721 /* NorthApple.m */,
-				BFB33EF91F95D16D00CF7721 /* SouthApple.h */,
-				BFB33EFA1F95D16D00CF7721 /* SouthApple.m */,
-				BFB33EF01F95CDC400CF7721 /* Banana.h */,
-				BFB33EF11F95CDC400CF7721 /* Banana.m */,
-				BFB33EF61F95D0FE00CF7721 /* NorthBanana.h */,
-				BFB33EF71F95D0FE00CF7721 /* NorthBanana.m */,
-				BFB33EFC1F95D1B100CF7721 /* SouthBanana.h */,
-				BFB33EFD1F95D1B100CF7721 /* SouthBanana.m */,
-				BFB33EFF1F95D2A000CF7721 /* FruitFactory.h */,
-				BFB33F001F95D35300CF7721 /* NorthFactory.h */,
-				BFB33F011F95D35300CF7721 /* NorthFactory.m */,
-				BFB33F031F95D36100CF7721 /* SouthFactory.h */,
-				BFB33F041F95D36100CF7721 /* SouthFactory.m */,
+				BFB33F0E1F95E62D00CF7721 /* AbstractFactoryMode */,
 				BFB33EEB1F95CBBD00CF7721 /* SimpleFactoryMode */,
 			);
 			path = FactoryDesignModeDemo;
@@ -168,15 +151,48 @@
 				BF49B9F21F935F320077F20C /* BZ550.m */,
 				BF49B9F41F935FB60077F20C /* BZ520.h */,
 				BF49B9F51F935FB60077F20C /* BZ520.m */,
+				BFB33F0D1F95E35A00CF7721 /* FactoryMethodTwo */,
+				BF49B9FD1F9363D20077F20C /* SimpleFactoryMode */,
+				BF49BA071F94342F0077F20C /* FactoryMethodModeOne */,
+			);
+			path = SimpleFactoryMode;
+			sourceTree = "<group>";
+		};
+		BFB33F0D1F95E35A00CF7721 /* FactoryMethodTwo */ = {
+			isa = PBXGroup;
+			children = (
 				BFB33F061F95E03A00CF7721 /* FactoryBZ.h */,
 				BFB33F071F95E0AD00CF7721 /* BZ550Factory_Two.h */,
 				BFB33F081F95E0AD00CF7721 /* BZ550Factory_Two.m */,
 				BFB33F0A1F95E0C400CF7721 /* BZ520Factory_Two.h */,
 				BFB33F0B1F95E0C400CF7721 /* BZ520Factory_Two.m */,
-				BF49B9FD1F9363D20077F20C /* SimpleFactoryMode */,
-				BF49BA071F94342F0077F20C /* FactoryMethodModeOne */,
 			);
-			path = SimpleFactoryMode;
+			path = FactoryMethodTwo;
+			sourceTree = "<group>";
+		};
+		BFB33F0E1F95E62D00CF7721 /* AbstractFactoryMode */ = {
+			isa = PBXGroup;
+			children = (
+				BFB33EEC1F95CC4000CF7721 /* Fruit.h */,
+				BFB33EED1F95CC9A00CF7721 /* Apple.h */,
+				BFB33EEE1F95CC9A00CF7721 /* Apple.m */,
+				BFB33EF01F95CDC400CF7721 /* Banana.h */,
+				BFB33EF11F95CDC400CF7721 /* Banana.m */,
+				BFB33EF31F95CF0F00CF7721 /* NorthApple.h */,
+				BFB33EF41F95CF0F00CF7721 /* NorthApple.m */,
+				BFB33EF91F95D16D00CF7721 /* SouthApple.h */,
+				BFB33EFA1F95D16D00CF7721 /* SouthApple.m */,
+				BFB33EF61F95D0FE00CF7721 /* NorthBanana.h */,
+				BFB33EF71F95D0FE00CF7721 /* NorthBanana.m */,
+				BFB33EFC1F95D1B100CF7721 /* SouthBanana.h */,
+				BFB33EFD1F95D1B100CF7721 /* SouthBanana.m */,
+				BFB33EFF1F95D2A000CF7721 /* FruitFactory.h */,
+				BFB33F001F95D35300CF7721 /* NorthFactory.h */,
+				BFB33F011F95D35300CF7721 /* NorthFactory.m */,
+				BFB33F031F95D36100CF7721 /* SouthFactory.h */,
+				BFB33F041F95D36100CF7721 /* SouthFactory.m */,
+			);
+			path = AbstractFactoryMode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

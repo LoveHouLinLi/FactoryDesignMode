@@ -10,4 +10,9 @@
 
 @implementation Apple
 
+- (void)get
+{
+    
+}
+
 @end
