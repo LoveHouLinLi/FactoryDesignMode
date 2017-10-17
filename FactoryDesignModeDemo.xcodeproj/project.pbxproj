@@ -18,6 +18,13 @@
 		BFB33EEF1F95CC9A00CF7721 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB33EEE1F95CC9A00CF7721 /* Apple.m */; };
 		BFB33EF21F95CDC400CF7721 /* Banana.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB33EF11F95CDC400CF7721 /* Banana.m */; };
 		BFB33EF51F95CF0F00CF7721 /* NorthApple.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB33EF41F95CF0F00CF7721 /* NorthApple.m */; };
+		BFB33EF81F95D0FE00CF7721 /* NorthBanana.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB33EF71F95D0FE00CF7721 /* NorthBanana.m */; };
+		BFB33EFB1F95D16D00CF7721 /* SouthApple.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB33EFA1F95D16D00CF7721 /* SouthApple.m */; };
+		BFB33EFE1F95D1B100CF7721 /* SouthBanana.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB33EFD1F95D1B100CF7721 /* SouthBanana.m */; };
+		BFB33F021F95D35300CF7721 /* NorthFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB33F011F95D35300CF7721 /* NorthFactory.m */; };
+		BFB33F051F95D36100CF7721 /* SouthFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB33F041F95D36100CF7721 /* SouthFactory.m */; };
+		BFB33F091F95E0AD00CF7721 /* BZ550Factory_Two.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB33F081F95E0AD00CF7721 /* BZ550Factory_Two.m */; };
+		BFB33F0C1F95E0C400CF7721 /* BZ520Factory_Two.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB33F0B1F95E0C400CF7721 /* BZ520Factory_Two.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,6 +63,22 @@
 		BFB33EF11F95CDC400CF7721 /* Banana.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Banana.m; sourceTree = "<group>"; };
 		BFB33EF31F95CF0F00CF7721 /* NorthApple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NorthApple.h; sourceTree = "<group>"; };
 		BFB33EF41F95CF0F00CF7721 /* NorthApple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NorthApple.m; sourceTree = "<group>"; };
+		BFB33EF61F95D0FE00CF7721 /* NorthBanana.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NorthBanana.h; sourceTree = "<group>"; };
+		BFB33EF71F95D0FE00CF7721 /* NorthBanana.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NorthBanana.m; sourceTree = "<group>"; };
+		BFB33EF91F95D16D00CF7721 /* SouthApple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SouthApple.h; sourceTree = "<group>"; };
+		BFB33EFA1F95D16D00CF7721 /* SouthApple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SouthApple.m; sourceTree = "<group>"; };
+		BFB33EFC1F95D1B100CF7721 /* SouthBanana.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SouthBanana.h; sourceTree = "<group>"; };
+		BFB33EFD1F95D1B100CF7721 /* SouthBanana.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SouthBanana.m; sourceTree = "<group>"; };
+		BFB33EFF1F95D2A000CF7721 /* FruitFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FruitFactory.h; sourceTree = "<group>"; };
+		BFB33F001F95D35300CF7721 /* NorthFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NorthFactory.h; sourceTree = "<group>"; };
+		BFB33F011F95D35300CF7721 /* NorthFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NorthFactory.m; sourceTree = "<group>"; };
+		BFB33F031F95D36100CF7721 /* SouthFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SouthFactory.h; sourceTree = "<group>"; };
+		BFB33F041F95D36100CF7721 /* SouthFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SouthFactory.m; sourceTree = "<group>"; };
+		BFB33F061F95E03A00CF7721 /* FactoryBZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryBZ.h; sourceTree = "<group>"; };
+		BFB33F071F95E0AD00CF7721 /* BZ550Factory_Two.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BZ550Factory_Two.h; sourceTree = "<group>"; };
+		BFB33F081F95E0AD00CF7721 /* BZ550Factory_Two.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BZ550Factory_Two.m; sourceTree = "<group>"; };
+		BFB33F0A1F95E0C400CF7721 /* BZ520Factory_Two.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BZ520Factory_Two.h; sourceTree = "<group>"; };
+		BFB33F0B1F95E0C400CF7721 /* BZ520Factory_Two.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BZ520Factory_Two.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +117,19 @@
 				BFB33EEE1F95CC9A00CF7721 /* Apple.m */,
 				BFB33EF31F95CF0F00CF7721 /* NorthApple.h */,
 				BFB33EF41F95CF0F00CF7721 /* NorthApple.m */,
+				BFB33EF91F95D16D00CF7721 /* SouthApple.h */,
+				BFB33EFA1F95D16D00CF7721 /* SouthApple.m */,
 				BFB33EF01F95CDC400CF7721 /* Banana.h */,
 				BFB33EF11F95CDC400CF7721 /* Banana.m */,
+				BFB33EF61F95D0FE00CF7721 /* NorthBanana.h */,
+				BFB33EF71F95D0FE00CF7721 /* NorthBanana.m */,
+				BFB33EFC1F95D1B100CF7721 /* SouthBanana.h */,
+				BFB33EFD1F95D1B100CF7721 /* SouthBanana.m */,
+				BFB33EFF1F95D2A000CF7721 /* FruitFactory.h */,
+				BFB33F001F95D35300CF7721 /* NorthFactory.h */,
+				BFB33F011F95D35300CF7721 /* NorthFactory.m */,
+				BFB33F031F95D36100CF7721 /* SouthFactory.h */,
+				BFB33F041F95D36100CF7721 /* SouthFactory.m */,
 				BFB33EEB1F95CBBD00CF7721 /* SimpleFactoryMode */,
 			);
 			path = FactoryDesignModeDemo;
@@ -111,7 +145,7 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		BF49BA071F94342F0077F20C /* FactoryMethodMode */ = {
+		BF49BA071F94342F0077F20C /* FactoryMethodModeOne */ = {
 			isa = PBXGroup;
 			children = (
 				BF49B9FE1F9432C20077F20C /* AbstractBZFactory.h */,
@@ -121,21 +155,26 @@
 				BF49BA041F9434030077F20C /* BZ520Factory.h */,
 				BF49BA051F9434030077F20C /* BZ520Factory.m */,
 			);
-			name = FactoryMethodMode;
+			name = FactoryMethodModeOne;
 			path = ..;
 			sourceTree = "<group>";
 		};
 		BFB33EEB1F95CBBD00CF7721 /* SimpleFactoryMode */ = {
 			isa = PBXGroup;
 			children = (
-				BF49B9FD1F9363D20077F20C /* SimpleFactoryMode */,
-				BF49BA071F94342F0077F20C /* FactoryMethodMode */,
 				BF49B9F71F9360990077F20C /* BZ.h */,
 				BF49B9F81F9360990077F20C /* BZ.m */,
 				BF49B9F11F935F320077F20C /* BZ550.h */,
 				BF49B9F21F935F320077F20C /* BZ550.m */,
 				BF49B9F41F935FB60077F20C /* BZ520.h */,
 				BF49B9F51F935FB60077F20C /* BZ520.m */,
+				BFB33F061F95E03A00CF7721 /* FactoryBZ.h */,
+				BFB33F071F95E0AD00CF7721 /* BZ550Factory_Two.h */,
+				BFB33F081F95E0AD00CF7721 /* BZ550Factory_Two.m */,
+				BFB33F0A1F95E0C400CF7721 /* BZ520Factory_Two.h */,
+				BFB33F0B1F95E0C400CF7721 /* BZ520Factory_Two.m */,
+				BF49B9FD1F9363D20077F20C /* SimpleFactoryMode */,
+				BF49BA071F94342F0077F20C /* FactoryMethodModeOne */,
 			);
 			path = SimpleFactoryMode;
 			sourceTree = "<group>";
@@ -197,14 +236,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB33EFE1F95D1B100CF7721 /* SouthBanana.m in Sources */,
 				BF49B9FC1F9361940077F20C /* BZFactory.m in Sources */,
 				BF49B9F61F935FB60077F20C /* BZ520.m in Sources */,
 				BFB33EF21F95CDC400CF7721 /* Banana.m in Sources */,
+				BFB33F051F95D36100CF7721 /* SouthFactory.m in Sources */,
 				BF49B9F31F935F320077F20C /* BZ550.m in Sources */,
 				BFB33EF51F95CF0F00CF7721 /* NorthApple.m in Sources */,
 				BFB33EEF1F95CC9A00CF7721 /* Apple.m in Sources */,
+				BFB33EFB1F95D16D00CF7721 /* SouthApple.m in Sources */,
+				BFB33F091F95E0AD00CF7721 /* BZ550Factory_Two.m in Sources */,
 				BF49BA031F9432F10077F20C /* BZ550Factory.m in Sources */,
 				BF49BA061F9434030077F20C /* BZ520Factory.m in Sources */,
+				BFB33F021F95D35300CF7721 /* NorthFactory.m in Sources */,
+				BFB33F0C1F95E0C400CF7721 /* BZ520Factory_Two.m in Sources */,
+				BFB33EF81F95D0FE00CF7721 /* NorthBanana.m in Sources */,
 				BF49B9EB1F9354500077F20C /* main.m in Sources */,
 				BF49BA001F9432C20077F20C /* AbstractBZFactory.m in Sources */,
 				BF49B9F91F9360990077F20C /* BZ.m in Sources */,

@@ -11,6 +11,9 @@
 
 #import "BZ520Factory.h"
 #import "BZ550Factory.h"
+#import "NorthFactory.h"
+#import "SouthFactory.h"  // 南方的工厂
+#import "Fruit.h"
 
 // 这里模仿客户端操作
 int main(int argc, const char * argv[]) {
@@ -23,12 +26,28 @@ int main(int argc, const char * argv[]) {
         BZ *bz520 = [factory createBZWithType:520];
         
         
-        // 下面这些是工厂方法模式
+        // 下面这些是第一种  工厂方法模式 
         BZ520Factory *bz520Factory = [[BZ520Factory alloc] init];
         bz520 = [bz520Factory createBZCar];
         
         BZ550Factory *bz550Factory = [[BZ550Factory alloc] init];
         bz550 = [bz550Factory createBZCar];
+        
+        // 下面是抽象工厂模式
+        NorthFactory *northFactory = [[NorthFactory alloc]init];
+        id<Fruit> northApple = [northFactory getApple];
+        [northApple get];
+        
+        id<Fruit> northBanana = [northFactory getBanana];
+        [northBanana get];
+        
+        SouthFactory *southFactory = [[SouthFactory alloc]init];
+        id<Fruit> southApple = [southFactory getApple];
+        [southApple get];
+        
+        id<Fruit> southBanana = [southFactory getBanana];
+        [southBanana get];
+        
         
         
     }

@@ -1,16 +1,18 @@
 //
-//  Banana.h
+//  NorthBanana.m
 //  FactoryDesignModeDemo
 //
 //  Created by DeLongYang on 2017/10/17.
 //  Copyright © 2017年 DeLongYang. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "Fruit.h"   // 水果协议
+#import "NorthBanana.h"
 
-@interface Banana : NSObject<Fruit>
+@implementation NorthBanana
 
-
+- (void)get
+{
+    NSLog(@" north banana");
+}
 
 @end

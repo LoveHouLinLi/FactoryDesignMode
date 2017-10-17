@@ -1,5 +1,5 @@
 //
-//  Banana.h
+//  NorthFactory.h
 //  FactoryDesignModeDemo
 //
 //  Created by DeLongYang on 2017/10/17.
@@ -7,10 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Fruit.h"   // 水果协议
+#import "FruitFactory.h"
 
-@interface Banana : NSObject<Fruit>
-
-
+@interface NorthFactory : NSObject<FruitFactory>
 
 @end

@@ -1,5 +1,5 @@
 //
-//  Banana.h
+//  FactoryBZ.h
 //  FactoryDesignModeDemo
 //
 //  Created by DeLongYang on 2017/10/17.
@@ -7,10 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Fruit.h"   // 水果协议
 
-@interface Banana : NSObject<Fruit>
+@class BZ;
 
+@protocol FactoryBZ <NSObject>
+
+- (BZ *)manufacteBZ;
 
 
 @end

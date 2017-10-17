@@ -10,4 +10,9 @@
 
 @implementation NorthApple
 
+- (void)get
+{
+    NSLog(@" north apple");
+}
+
 @end
